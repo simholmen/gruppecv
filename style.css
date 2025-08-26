@@ -58,6 +58,10 @@ header h1 {
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    transition: transform 0.3s;
+}
+.member:hover{
+    transform: scale(1.1);
 }
 
 .member img {
@@ -70,6 +74,7 @@ header h1 {
     margin-bottom: 0.5rem;
     background: #eee;
 }
+
 .rolle {
     font-weight: lighter;
 }
@@ -108,6 +113,9 @@ header h1 {
     padding: 1rem 2rem;
     max-width: 300px;
     min-width: 220px;
+}
+.about-member p{
+    line-height: 25px;
 }
 
 #projects {

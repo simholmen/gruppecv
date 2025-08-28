@@ -1,10 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: #aaabb8;
     color: #222;
-    scroll-behavior: smooth;
 }
 
 header {
@@ -63,17 +66,72 @@ header ul li a:hover {
     color: #2279ec;
 }
 
+.forside-section {
+    background: #aaabb8;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forside-container {
+    background: #ffffff;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.forside-bilde-container {
+    flex: 0 0 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forside-bilde-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.forside-tekst {
+flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.forside-tekst h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #222;
+    letter-spacing: 1px;
+        }
+
+.forside-tekst p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 0;
+    color: #444;
+}
+
 .members-section {
     background: #aaabb8;
     padding: 2rem 0;
     text-align: center;
 }
-
 .members-section h2 {
     background: #ffffff;;
     border-radius: 20px;
     font-size: 30px;
-    box-shadow: 0 04px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 0 4px 12px rgba(0, 0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,8 +146,8 @@ header ul li a:hover {
     background: #fff;            
     border-radius: 15px;
     padding: 2rem 1.5rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transition: all 0.3s ease, box-shadow 0.3s ease;
     width: 250px;
     height: 300px;
 }
@@ -102,6 +160,7 @@ header ul li a:hover {
     margin: 0 auto 0 auto;
     width: 1000px;
     justify-items: center;
+    transition: all 0.5s ease;
 }
 
 .members {
@@ -109,6 +168,7 @@ header ul li a:hover {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 2rem;
+    transition: all 0.5s ease;
 }
 
 .member:hover {

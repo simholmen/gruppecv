@@ -11,6 +11,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
 header {
     background: black;
     color: #eee;
@@ -80,7 +81,10 @@ header ul li a:hover {
 
 .full-picture-bg {
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url("bilder/gruppe-placeholder.jpeg");
     background-position: center;
     background-size: cover;
@@ -103,19 +107,23 @@ header ul li a:hover {
     font-family: "Montserrat", Arial, sans-serif;
     text-align: center;
 }
+
 .full-picture-content h1 {
     font-size: 4rem;
     font-weight: 500;
     margin-bottom: 1rem;
 }
+
 .full-picture-content h2 {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
 .forside-section-wrap {
     position: relative;
     background-color: #ffffff;
 }
+
 .forside-section {
     position: relative;
     max-width: 1400px;
@@ -137,11 +145,17 @@ header ul li a:hover {
     padding: 3rem 2rem;
     border-radius: 20px;
     box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease, box-shadow 0.3s ease;
     margin: 0 auto;
     width: 1400px;
     display: flex;
     align-items: center;
     gap: 3rem;
+}
+
+.forside-container:hover {
+    box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+    transform: translateY(-5px);
 }
 
 .forside-bilde-container {
@@ -183,12 +197,11 @@ header ul li a:hover {
 .members-section {
     background: #ffffff;
     padding: 2rem 0;
-    text-align: center;
+    text-align: left;
 }
 
 .members-section h2 {
     background: #ffffff;
-    ;
     border-radius: 20px;
     font-size: 30px;
     box-shadow: 0 0 4px 12px rgba(0, 0, 0, 0, 0.1);
@@ -202,33 +215,80 @@ header ul li a:hover {
     margin-bottom: 25px;
 }
 
-.member {
-    background: #a93b3b;
-    border-radius: 15px;
-    padding: 2rem 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease, box-shadow 0.3s ease;
-    width: 250px;
-    height: 300px;
-}
-
 .members-container {
     background: #ffffff;
     padding: 3rem 2rem;
     border-radius: 20px;
     box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
     margin: 0 auto 0 auto;
-    width: 1000px;
+    width: 1500px;
     justify-items: center;
     transition: all 0.5s ease;
+}
+.members-container h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #222;
+    letter-spacing: 1px;
 }
 
 .members {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 2rem;
     transition: all 0.5s ease;
+}
+.member {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+    width: 650px;
+    height: auto;
+    gap: 2rem;
+}
+
+.member p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+    color: #000000;
+}
+
+.member-left {
+    flex: 0 0 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-right {
+    flex: 1;
+    padding-left: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.member h3 {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.member .rolle {
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.member .contact-icon {
+    margin-top: 0.5rem;
+
 }
 
 .member:hover {
@@ -237,11 +297,10 @@ header ul li a:hover {
 }
 
 .member img {
-    width: 160px;
-    height: 160px;
+    width: 300px;
+    height: 380px;
     object-fit: cover;
     object-position: center top;
-    border-radius: 50%;
     border: 4px solid #DBE2EF;
     margin-bottom: 0.5rem;
     background: #eee;
@@ -254,16 +313,12 @@ header ul li a:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
-.rolle {
-    font-weight: lighter;
-}
-
-.contacticon {
+.contact-icon {
     margin-top: 0.5rem;
     font-size: 0;
 }
 
-.contacticon img {
+.contact-icon img {
     width: 40px;
     height: 40px;
     border-radius: 30%;

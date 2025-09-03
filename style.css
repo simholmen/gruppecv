@@ -1,15 +1,16 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background: #aaabb8;
+    background: #ffffff;
     color: #222;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
-
 header {
     background: black;
     color: #eee;
@@ -19,7 +20,7 @@ header {
     align-items: center;
 }
 
-header h1{
+header h1 {
     font-size: 3rem;
     margin: 0 0 0 20px;
     letter-spacing: 2px;
@@ -27,7 +28,7 @@ header h1{
 
 }
 
-header nav{
+header nav {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -42,7 +43,7 @@ header ul {
     font-size: 1.2rem;
 }
 
-.header-image { 
+.header-image {
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -50,7 +51,7 @@ header ul {
 }
 
 .header-image img {
-    height: 60px; 
+    height: 60px;
     width: auto;
     border-radius: 8px;
 }
@@ -66,8 +67,65 @@ header ul li a:hover {
     color: #2279ec;
 }
 
+.full-picture {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-picture-bg {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url("bilder/gruppe-placeholder.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px) brightness(0.7);
+    z-index: 1;
+    will-change: transform;
+    transition: filter 0.2s;
+}
+
+.full-picture-content {
+    position: relative;
+    z-index: 3;
+    padding: 15% 0 10%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat", Arial, sans-serif;
+    text-align: center;
+}
+.full-picture-content h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.full-picture-content h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.forside-section-wrap {
+    position: relative;
+    background-color: #ffffff;
+}
 .forside-section {
-    background: #aaabb8;
+    position: relative;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
+
+.forside-section {
+    background: #ffffff;
     padding: 3rem 0;
     display: flex;
     justify-content: center;
@@ -78,16 +136,16 @@ header ul li a:hover {
     background: #ffffff;
     padding: 3rem 2rem;
     border-radius: 20px;
-    box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
-    width: 1000px;
+    width: 1400px;
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
 .forside-bilde-container {
-    flex: 0 0 400px;
+    flex: 0 0 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +160,7 @@ header ul li a:hover {
 }
 
 .forside-tekst {
-flex: 1;
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -113,22 +171,24 @@ flex: 1;
     margin: 0;
     color: #222;
     letter-spacing: 1px;
-        }
+}
 
 .forside-tekst p {
     font-size: 1.2rem;
-    line-height: 1.8;
+    line-height: 1.5;
     margin: 0;
-    color: #444;
+    color: #000000;
 }
 
 .members-section {
-    background: #aaabb8;
+    background: #ffffff;
     padding: 2rem 0;
     text-align: center;
 }
+
 .members-section h2 {
-    background: #ffffff;;
+    background: #ffffff;
+    ;
     border-radius: 20px;
     font-size: 30px;
     box-shadow: 0 0 4px 12px rgba(0, 0, 0, 0, 0.1);
@@ -137,16 +197,16 @@ flex: 1;
     justify-content: center;
     width: 175px;
     height: auto;
-    padding: 1rem 2rem; 
-    margin: 0 auto 0 auto; 
+    padding: 1rem 2rem;
+    margin: 0 auto 0 auto;
     margin-bottom: 25px;
 }
 
 .member {
-    background: #fff;            
+    background: #a93b3b;
     border-radius: 15px;
     padding: 2rem 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease, box-shadow 0.3s ease;
     width: 250px;
     height: 300px;
@@ -156,7 +216,7 @@ flex: 1;
     background: #ffffff;
     padding: 3rem 2rem;
     border-radius: 20px;
-    box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
     margin: 0 auto 0 auto;
     width: 1000px;
     justify-items: center;
@@ -173,7 +233,7 @@ flex: 1;
 
 .member:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);  
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .member img {
@@ -185,12 +245,13 @@ flex: 1;
     border: 4px solid #DBE2EF;
     margin-bottom: 0.5rem;
     background: #eee;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .member img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .rolle {
@@ -201,6 +262,7 @@ flex: 1;
     margin-top: 0.5rem;
     font-size: 0;
 }
+
 .contacticon img {
     width: 40px;
     height: 40px;
@@ -212,7 +274,7 @@ flex: 1;
 }
 
 #about {
-    background: #aaabb8;
+    background: #ffffff;
     padding: 2rem 0;
     margin: 20px;
 }
@@ -225,19 +287,20 @@ flex: 1;
 }
 
 .about-member {
-    background: #eee;
+    background: #dd4848;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     padding: 1rem 2rem;
     max-width: 300px;
     min-width: 220px;
 }
-.about-member p{
+
+.about-member p {
     line-height: 25px;
 }
 
 #projects {
-    background: #aaabb8;
+    background: #ffffff;
     padding: 2rem 0;
     margin: 20px;
 }
@@ -250,12 +313,12 @@ flex: 1;
 }
 
 .project {
-    background: #f0f0f0;
+    background: #9d3d3d;
     border-radius: 10px;
     padding: 1rem 2rem;
     min-width: 220px;
     max-width: 300px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .project p {
@@ -272,7 +335,10 @@ footer {
 }
 
 @media (max-width: 800px) {
-    .members, .about-members, .projects {
+
+    .members,
+    .about-members,
+    .projects {
         flex-direction: column;
         align-items: center;
     }

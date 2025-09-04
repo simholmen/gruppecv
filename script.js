@@ -50,16 +50,6 @@ document.querySelector('.gallery-arrow.right').addEventListener('click', () => {
     updateGallery();
 });
 
-// Optional: Keyboard navigation
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowLeft') {
-        currentImage = (currentImage - 1 + galleryImages.length) % galleryImages.length;
-        updateGallery();
-    } else if (e.key === 'ArrowRight') {
-        currentImage = (currentImage + 1) % galleryImages.length;
-        updateGallery();
-    }
-});
 
 // Initialize gallery on page load
 updateGallery();

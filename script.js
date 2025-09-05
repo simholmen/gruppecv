@@ -98,7 +98,7 @@ const memberTexts = [
         - ORG313 - Gründer Lab and Entrepreneurship Laboratory`
     ],
     [
-        "Jeg heter Lena",
+        `Skriv om lena`,
         `Verv: <br> 
         - Styremedlem i Systematicus 2024
         <br>
@@ -117,7 +117,7 @@ const memberTexts = [
         - ORG313 - Gründer Lab and Entrepreneurship Laboratory`
     ],
     [
-        "Jeg heter Lars",
+        `Skriv her`,
         `IT Arbeidserfaring:
         <br>
         - Praktikant i Vivet

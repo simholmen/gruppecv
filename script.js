@@ -63,7 +63,8 @@ const memberTexts = [
         Rollen min i gruppa er prosjektleder, på grunn av at jeg har erfaring med gruppeledelse gjennom de tidligere prosjektene våre.
         I tillegg er jeg ansatt som studentmentor og læringsassistent, hvor jeg har hatt et tilleggsemne for gruppeledelse.
         <br><br>
-        Mine faglige interesser er full-stack development, hvor jeg har erfaring med både frontend og backend utvikling.`,
+        Mine faglige interesser er full-stack development, hvor jeg har erfaring med både frontend og backend utvikling. Dette har jeg fått gjennom emner
+        jeg har valgt på skolen, men også mine hobby-prosjekter på fritiden.`,
 
         `Verv:<br>
         - Nito Studentene Kristiansand siden 2024<br><br>
@@ -98,7 +99,12 @@ const memberTexts = [
         - ORG313 - Gründer Lab and Entrepreneurship Laboratory`
     ],
     [
-        `Skriv om lena`,
+        `Jeg heter Lena Gjøse og er 22 år gammel fra Klepp. Jeg studerer IT og Informasjonssystemer på 3. året ved Universitet i Agder.
+        <br><br>
+        Jeg har en særlig interesse for UX design
+        og prosjektledelse. Jeg liker å jobbe med hvordan teknologi kan gjøres mer brukervennlig og hvordan gode metoder og prosesser kan bidra til at prosjekter gjennomføres både effektivt og med høy kvalitet. 
+        <br><br>
+        Gjennom studie har jeg blant annet fått erfaring med teamsamarbeid, ulike utviklingsmetoder og hvordan man kan kartlegge og analysere brukerbehov. Dette har gitt meg en praktisk forståelse av hvordan teori kan anvendes.`,
         `Verv: <br> 
         - Styremedlem i Systematicus 2024
         <br>
@@ -137,7 +143,9 @@ const memberTexts = [
     [
         `Jeg heter Jens Haakaas, og er utvikler. Jeg er 23 år gammel og kommer fra Trøgstad. 
         <br><br> 
-        Jeg er en veldig teknisk person, som har erfaring med forskjellige rammeverk og kodespråk. I de siste to årene har jeg jobbet med mange programmeringsprosjekter både i og utenfor skolen.`,
+        Jeg er en veldig teknisk person, som har erfaring med forskjellige rammeverk og kodespråk. I de siste to årene har jeg jobbet med mange programmeringsprosjekter både i og utenfor skolen.
+        <br><br>
+        Utenfor skolen har jeg også grundet Nettlio, hvor jeg helper bedrifter med å lage KI-agenter for å automatisere arbeidsoppgaver.`,
         `IT Arbeidserfaring:
         <br>
         - Praktikant i Vivet

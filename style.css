@@ -301,7 +301,7 @@ header ul li a:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease, box-shadow 0.3s ease;
     width: 600px;
-    height: auto;
+    height: 650px;
     gap: 2rem;
 }
 
@@ -315,6 +315,7 @@ header ul li a:hover {
 .member-left {
     flex: 0 0 180px;
     display: flex;
+    gap: 1rem;
     flex-direction: column;
     align-items: center;
 }
@@ -325,9 +326,9 @@ header ul li a:hover {
     text-align: left;
     display: flex;
     flex-direction: column;
-    /* Stack text and switcher vertically */
     align-items: center;
-    /* Align left, or use center if you want centered */
+    justify-content: space-between; /* Add this to push content to top and bottom */
+    height: 100%; /* Ensure it fills the parent */
 }
 
 .member-text-switcher {
@@ -371,6 +372,7 @@ header ul li a:hover {
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
+    width: 100%;
 }
 
 .member-text-dots {
@@ -445,6 +447,18 @@ header ul li a:hover {
     object-position: center;
     margin: 0.5rem;
 
+}
+.link-star {
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.link-description {
+    display: block;
+    font-size: 14px;
+    margin-top: 0.2em;
+    text-align: center;
+    font-style: italic;
 }
 
 .projects-section {

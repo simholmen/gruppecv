@@ -4,20 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group 15</title>
+    <title>Gruppe 15</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1 id="group">Gruppe 15</h1>
+        <h1 id="group">GitCommitted</h1>
         <nav>
             <ul>
-                <li><a href="#group">Gruppe 15</a></li>
-                <li><a href="#members">Medlemmer</a></li>
-                <li><a href="#about">Om</a></li>
-                <li><a href="#projects">Prosjekter</a></li>
+                <li><a href="#omoss">Om Oss</a></li>
+                <li><a href="#medlemmer">Medlemmer</a></li>
+                <li><a href="#prosjekter">Prosjekter</a></li>
+                <li><a href="#aktiviteter">Aktiviteter</a></li>
+                <li><a href="#kontaktoss">Kontakt Oss</a></li>
             </ul>
         </nav>
         <div class="header-image">
@@ -28,7 +29,7 @@
     <div class="full-picture">
         <div class="full-picture-bg"></div>
         <div class="full-picture-content">
-            <h1>Gruppe 15</h1>
+            <h1>Gruppe 15 - GitCommitted</h1>
             <h2>
                 Simen Emil Wiig Holmen &bull; Siri Johansen Thunestvedt &bull; Lena Gjøse &bull; Lars Kydland
                 &bull; Jens Haakaas &bull; Ingri Drabløs Bolstad
@@ -39,13 +40,13 @@
             onclick="document.querySelector('.forside-section').scrollIntoView({behavior: 'smooth'})">
         </div>
     </div>
-    <div class="forside-section-wrap">
+    <div class="forside-section-wrap" id="omoss">
         <div class="forside-section">
             <div class="forside-container">
                 <div class="forside-tekst">
                     <h2>Om Oss</h2>
                     <p>
-                        Hei! Vi er gruppe 15. Gruppa vår har jobbet sammen
+                        Hei! Vi er GitCommitted! Gruppa vår har jobbet sammen
                         helt siden første semesteret, hvor vi har lært mye om hva som
                         funker og hva som ikke funker for hver av oss. Vi har opplevd
                         flere oppturer og nedturer sammen, og er nå klar for en ny utfordring!
@@ -72,11 +73,11 @@
         </div>
     </div>
 
-    <section id="members" class="members-section">
+    <section id="medlemmer" class="members-section">
         <div class="members-container">
             <h2>Medlemmer</h2>
             <div class="members">
-                <div class="member">
+                <div class="member" id="medlemmer">
                     <div class="member-left">
                         <img src="bilder/simen_portrett.jpeg" alt="Simen Holmen">
                         <h3>Simen Emil Wiig Holmen</h3>
@@ -93,7 +94,9 @@
                                 rel="noopener noreferrer">
                                 <img src="bilder/link.png" alt="Link" />
                             </a>
+                            <span class="link-star">*</span>
                         </div>
+                        <div class="link-description">* Personlig portofølje</div>
                     </div>
                     <div class="member-right">
                         <div class="member-text-content" id="member-text-0"></div>
@@ -170,7 +173,9 @@
                             <a href="https://portofolie.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <img src="bilder/link.png" alt="Link" />
                             </a>
+                            <span class="link-star">*</span>
                         </div>
+                        <div class="link-description">* Personlig portofølje</div>
                     </div>
                     <div class="member-right">
                         <div class="member-text-content" id="member-text-3"></div>
@@ -197,7 +202,9 @@
                             <a href="https://www.nettlio.com" target="_blank" rel="noopener noreferrer">
                                 <img src="bilder/link.png" alt="Link" />
                             </a>
+                            <span class="link-star">*</span>
                         </div>
+                        <div class="link-description">* Nettlio</div>
                     </div>
                     <div class="member-right">
                         <div class="member-text-content" id="member-text-4"></div>
@@ -236,7 +243,7 @@
         </div>
     </section>
 
-    <section id="projects" class="project-section">
+    <section id="prosjekter" class="project-section">
         <div class="projects-section">
             <div class="projects-container-alt">
                 <div class="projects-tekst">
@@ -351,7 +358,7 @@
         </div>
     </section>
 
-    <section id="activities" class="activities-section">
+    <section id="aktiviteter" class="activities-section">
         <div class="activities-section">
             <div class="activities-container-alt">
                 <div class="activities-tekst">
@@ -368,7 +375,7 @@
         </div>
     </section>
 
-    <section id="contact-info" class="contact-info-section">
+    <section id="kontaktoss" class="contact-info-section">
         <h2>Kontakt oss!</h2>
         <div class="contact-info-container">
             <div class="contact-info-box">

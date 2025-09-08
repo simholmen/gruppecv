@@ -123,7 +123,13 @@ const memberTexts = [
         - ORG313 - Gründer Lab and Entrepreneurship Laboratory`
     ],
     [
-        `Skriv her`,
+        `Jeg heter Lars Kydland, er 23 år gammel og kommer fra Varhaug. Jeg studerer IT og Informasjonssystemer på 3. året ved Universitetet i Agder.
+        <br><br>
+        Min rolle er utvikler, fordi jeg har stor interesse for frontend-utvikling og liker å jobbe med å lage brukervennlige og visuelt attraktive grensesnitt.
+        <br><br>
+        Jeg har erfaring både fra studierelaterte prosjekter og egne hobbyprosjekter på fritiden, hvor jeg eksperimenterer med ulike teknologier.
+
+        `,
         `IT Arbeidserfaring:
         <br>
         - Praktikant i Vivet

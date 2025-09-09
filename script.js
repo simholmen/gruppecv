@@ -99,12 +99,12 @@ const memberTexts = [
         - ORG313 - Gründer Lab and Entrepreneurship Laboratory`
     ],
     [
-        `Jeg heter Lena Gjøse og er 22 år gammel fra Klepp. Jeg studerer IT og Informasjonssystemer på 3. året ved Universitet i Agder.
+        `Jeg heter Lena Gjøse og er 22 år gammel fra Klepp. Jeg har en særlig interesse for UX design og prosjektledelse.
         <br><br>
-        Jeg har en særlig interesse for UX design
-        og prosjektledelse. Jeg liker å jobbe med hvordan teknologi kan gjøres mer brukervennlig og hvordan gode metoder og prosesser kan bidra til at prosjekter gjennomføres både effektivt og med høy kvalitet. 
+        Gjennom studiet har jeg blant annet fått erfaring med teamsamarbeid, ulike utviklingsmetoder og hvordan man kan kartlegge og analysere brukerbehov. Dette har gitt meg en praktisk forståelse av hvordan teori kan anvendes. 
         <br><br>
-        Gjennom studie har jeg blant annet fått erfaring med teamsamarbeid, ulike utviklingsmetoder og hvordan man kan kartlegge og analysere brukerbehov. Dette har gitt meg en praktisk forståelse av hvordan teori kan anvendes.`,
+        I prosjektarbeid med gruppen har jeg tidligere hatt rollen som den som fokuserer på UX-design og akademisk skriving. Jeg har derfor bidratt til å skape gode, brukervennlige løsninger, samtidig som jeg har hatt ansvar for å kvalitetssikre dokumentasjon og akademiske tekster.
+        `,
         `Verv: <br> 
         - Styremedlem i Systematicus 2024
         <br>

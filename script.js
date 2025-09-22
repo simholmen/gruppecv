@@ -6,6 +6,7 @@ window.addEventListener('scroll', function () {
 });
 
 const galleryImages = [
+    { src: "bilder/techpoint.jpg", caption: "Simen, Lena, Ingri, Lars og Jens på Techpoint 2025" },
     { src: "bilder/lena_siri_syst.jpg", caption: "Lena og Siri på stand med Systematicus" },
     { src: "bilder/simen_lars_gis.jpeg", caption: "Simen og Lars presenterer GIS-løsningen" },
     { src: "bilder/ingri_fadderstyret2.jpeg", caption: "Ingri på stand med resten av Fadderstyret" }
@@ -66,18 +67,19 @@ const memberTexts = [
         Mine faglige interesser er full-stack development, hvor jeg har erfaring med både frontend og backend utvikling. Dette har jeg fått gjennom emner
         jeg har valgt på skolen, men også mine hobby-prosjekter på fritiden.`,
 
-        `Verv:<br>
-        - Nito Studentene Kristiansand siden 2024<br><br>
-        IT Arbeidserfaring:<br>
-        - Læringsassistent ved UIA<br>
-        - Praktikant hos Gjesdal Idrettslag<br><br>
-        Valgemner:<br>
-        - TFL129 - Innføringsemne for studentmentorer<br>
-        - IS309 - Videregående databaser<br>
-        - IS218 - Geografiske Informasjonssytemer, AI og IoT<br>
-        - IS211 - Algortimer og Data strukturer<br>
-        - IS302 - Praksisprosjekt<br>
-        - IS115 - Webprogrammering i PHP`
+        `<strong>Verv:</strong><br>
+        🟢 Nito Studentene Kristiansand siden 2024<br><br>
+        <strong>IT Arbeidserfaring:</strong><br>
+        💼 Læringsassistent ved UIA<br>
+        💼 Praktikant hos Gjesdal Idrettslag<br><br>
+        <strong>Valgemner:</strong><br>
+        👥 TFL129 - Innføringsemne for studentmentorer<br>
+        💻 IS309 - Videregående databaser<br>
+        💻 IS218 - Geografiske Informasjonssytemer, AI og IoT<br>
+        💻 IS211 - Algortimer og Data strukturer<br>
+        💻 IS115 - Webprogrammering i PHP<br>
+        💼 IS302 - Praksisprosjekt
+        `
     ],
     [
         `Jeg heter Siri Johansen Thunestvedt, og er en 23 år gammel jente fra Ræge.
@@ -88,15 +90,15 @@ const memberTexts = [
         Dette området krever kreativitet og faglig forståelse, noe jeg syntes er spennende, og passer meg godt.
         Min rolle i gruppen er derfor UX designer og ansvarlig for den akademiske skrivingen.`,
 
-        `Verv:<br>
-        - Velferdsansvarlig i Systematicus 2024<br>
-        - Sponsoranvarlig i Systematicus 2025<br><br>
-        Valgemner:<br>
-        - IS214 - Information Systems Security<br>
-        - IS217 - Universell utforming av informasjonssytemer<br>
-        - TFL102 - IT og samfunnsendringer<br>
-        - ME100 - Samfunnsvitenskapelig metode<br>
-        - ORG313 - Gründer Lab and Entrepreneurship Laboratory`
+        `<strong>Verv:</strong><br>
+        🟢 Velferdsansvarlig i Systematicus 2024<br>
+        🟢 Sponsoranvarlig i Systematicus 2025<br><br>
+        <strong>Valgemner:</strong><br>
+        💻 IS214 - Information Systems Security<br>
+        💻 IS217 - Universell utforming av informasjonssytemer<br>
+        📚 TFL102 - IT og samfunnsendringer<br>
+        📚 ME100 - Samfunnsvitenskapelig metode<br>
+        📚 ORG313 - Gründer Lab and Entrepreneurship Laboratory`
     ],
     [
         `Jeg heter Lena Gjøse og er 22 år gammel fra Klepp. Jeg har en særlig interesse for UX design og prosjektledelse.
@@ -105,22 +107,17 @@ const memberTexts = [
         <br><br>
         I prosjektarbeid med gruppen har jeg tidligere hatt rollen som den som fokuserer på UX-design og akademisk skriving. Jeg har derfor bidratt til å skape gode, brukervennlige løsninger, samtidig som jeg har hatt ansvar for å kvalitetssikre dokumentasjon og akademiske tekster.
         `,
-        `Verv: <br> 
-        - Styremedlem i Systematicus 2024
+        `<strong>Verv:</strong><br>
+        🟢 Styremedlem i Systematicus 2024
         <br>
-        - Næringslivsansvarlig i Systematicus 2025
+        🟢 Næringslivsansvarlig i Systematicus 2025
         <br><br>
-        Valgemner:
-        <br>
-        - IS214 - Information Systems Security
-        <br>
-        - IS217 - Universell utforming av informasjonssytemer
-        <br>
-        - TFL102 - IT og samfunnsendringer
-        <br>
-        - ME100 - Samfunnsvitenskapelig metode
-        <br>
-        - ORG313 - Gründer Lab and Entrepreneurship Laboratory`
+        <strong>Valgemner:</strong><br>
+        💻 IS214 - Information Systems Security<br>
+        💻 IS217 - Universell utforming av informasjonssytemer<br>
+        📚 TFL102 - IT og samfunnsendringer<br>
+        📚 ME100 - Samfunnsvitenskapelig metode<br>
+        📚 ORG313 - Gründer Lab and Entrepreneurship Laboratory`
     ],
     [
         `Jeg heter Lars Kydland, er 23 år gammel og kommer fra Varhaug. Jeg studerer IT og Informasjonssystemer på 3. året ved Universitetet i Agder.
@@ -130,42 +127,42 @@ const memberTexts = [
         Jeg har erfaring både fra studierelaterte prosjekter og egne hobbyprosjekter på fritiden, hvor jeg eksperimenterer med ulike teknologier.
 
         `,
-        `IT Arbeidserfaring:
+        `<strong>IT Arbeidserfaring:</strong>
         <br>
-        - Praktikant i Vivet
+        💼 Praktikant i Vivet
         <br><br>
-        Valgemner:
+        <strong>Valgemner:</strong>
         <br>
-        - IS214 - Information Systems Security
+        💻 IS214 - Information Systems Security
         <br>
-        - IS218 - Geografiske Informasjonssytemer, AI og IoT
+        💻 IS218 - Geografiske Informasjonssytemer, AI og IoT
         <br>
-        - IS211 - Algortimer og Data strukturer
+        💻 IS211 - Algortimer og Data strukturer
         <br>
-        - IS302 - Praksisprosjekt
+        💻 IS115 - Webprogrammering i PHP
         <br>
-        - IS115 - Webprogrammering i PHP`
+        💼 IS302 - Praksisprosjekt`
     ],
     [
         `Jeg heter Jens Haakaas, og er utvikler. Jeg er 23 år gammel og kommer fra Trøgstad. 
         <br><br> 
         Jeg er en veldig teknisk person, som har erfaring med forskjellige rammeverk og kodespråk. I de siste to årene har jeg jobbet med mange programmeringsprosjekter både i og utenfor skolen.
         <br><br>
-        Utenfor skolen har jeg også grundet Nettlio, hvor jeg helper bedrifter med å lage KI-agenter for å automatisere arbeidsoppgaver.`,
-        `IT Arbeidserfaring:
+        Utenfor skolen har jeg også grundet Nettlio, hvor jeg helper bedrifter med å lage AI-agenter for å automatisere arbeidsoppgaver.`,
+        `<strong>IT Arbeidserfaring:</strong>
         <br>
-        - Praktikant i Vivet
+        💼 Praktikant i Vivet
         <br>
-        - Gründer av Nettlio
+        💼 Gründer av Nettlio
         <br><br>
-        Valgemner:
+        <strong>Valgemner:</strong>
         <br>
-        - Blockchain*
+        💻 Blockchain*
         <br>
-        - IS302 - Praksisprosjekt
+        💻 IS115 - Webprogrammering i PHP
         <br>
-        - IS115 - Webprogrammering i PHP
-                <br>
+        💼 IS302 - Praksisprosjekt
+        <br> <br>
         * Tatt på utveksling i Praha`
     ],
     [
@@ -181,25 +178,25 @@ const memberTexts = [
         en særlig interesse for back-end utvikling. Som person er jeg strukturet, løsningsorientert
         og ønsker å skape et trygt abeidsmiljø for alle. `,
 
-        `Verv:
+        `<strong>Verv:</strong>
         <br>
-        - Fadderansvarlig i Fadderstyre 2025
+        🔴 Fadderansvarlig i Fadderstyre 2025
         <br><br>
-        IT Arbeidserfaring:
+        <strong>IT Arbeidserfaring:</strong>
         <br>
-        - Praktikant i Phonero
+        💼 Praktikant i Phonero
         <br><br>
-        Valgemner:
+        <strong>Valgemner:</strong>
         <br>
-        - IS214 - Information Systems Security
+        💻 IS214 - Information Systems Security
         <br>
-        - IS217 - Universell utforming av informasjonssytemer
+        💻 IS217 - Universell utforming av informasjonssytemer
         <br>
-        - IS211 - Algortimer og Data strukturer
+        💻 IS211 - Algortimer og Data strukturer
         <br>
-        - IS302 - Praksisprosjekt hos Phonero
+        📚 ME100 - Samfunnsvitenskapelig metode
         <br>
-        - IS115 - Webprogrammering i PHP`
+        💼 IS302 - Praksisprosjekt hos Phonero`
     ]
 ];
 

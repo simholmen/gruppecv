@@ -87,8 +87,8 @@ header ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("bilder/gruppe-placeholder.jpeg");
-    background-position: center;
+    background-image: url("bilder/gruppebilde.jpg");
+    background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(2px) brightness(0.7);
@@ -134,7 +134,7 @@ header ul li a:hover {
 }
 
 .scroll-indikator::after {
-    content: '🠇';
+    content: '▼';
     color: white;
     font-size: 2rem;
     font-weight: bold;
@@ -362,6 +362,7 @@ header ul li a:hover {
     max-width: 350px;
     text-align: left;
     font-size: 1.1rem;
+    line-height: 1.3;
     color: #222;
     transition: opacity 0.2s;
 }
@@ -381,7 +382,6 @@ header ul li a:hover {
     align-items: center;
     gap: 0.4rem;
     margin: 0;
-    /* Remove margin-top so dots are centered between arrows */
 }
 
 .member-text-dot {
@@ -416,17 +416,11 @@ header ul li a:hover {
 
 }
 
-.member:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-}
-
 .member img {
     width: 300px;
     height: 380px;
     object-fit: cover;
     object-position: center top;
-    border: 2px solid #C8102E;
     margin-bottom: 0.5rem;
     background: #eee;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -437,6 +431,7 @@ header ul li a:hover {
 .contact-icon {
     margin-top: 0.5rem;
     font-size: 0;
+    cursor: pointer;
 }
 
 .contact-icon img {
@@ -446,8 +441,15 @@ header ul li a:hover {
     border: none;
     object-position: center;
     margin: 0.5rem;
-
+    cursor: pointer;
 }
+.contact-icon img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
 .link-star {
     font-size: 20px;
     vertical-align: top;
@@ -460,6 +462,7 @@ header ul li a:hover {
     text-align: center;
     font-style: italic;
 }
+
 
 .projects-section {
     position: relative;

@@ -899,12 +899,52 @@ footer {
     font-size: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1500px) {
+    .forside-container,
+    .projects-container-alt,
+    .kompetanse-container,
+    .activities-container-alt,
+    .contact-info-container,
+    .members-container {
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        flex-direction: column; /* <-- Add this line */
+        align-items: center;
+        gap: 2rem;
+    }
 
-    .members,
-    .about-members,
-    .projects {
+    .forside-bilde-container,
+    .project-right,
+    .activities-tekst {
+        width: 100%;
+        max-width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Add this for grid containers */
+    .members {
+        display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 2rem;
+    }
+        .projects-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 700px;
+    }
+        header nav ul {
+        display: none;
     }
 }

@@ -6,6 +6,7 @@ window.addEventListener('scroll', function () {
 });
 
 const galleryImages = [
+    { src: "bilder/refreshit.jpg", caption: "Hele gruppen samlet på RefreshIT 2025" },
     { src: "bilder/techpoint.jpg", caption: "Simen, Lena, Ingri, Lars og Jens på Techpoint 2025" },
     { src: "bilder/lena_siri_syst.jpg", caption: "Lena og Siri på stand med Systematicus" },
     { src: "bilder/simen_lars_gis.jpeg", caption: "Simen og Lars presenterer GIS-løsningen" },
@@ -71,7 +72,8 @@ const memberTexts = [
         🟢 Nito Studentene Kristiansand siden 2024<br><br>
         <strong>IT Arbeidserfaring:</strong><br>
         💼 Læringsassistent ved UIA<br>
-        💼 Praktikant hos Gjesdal Idrettslag<br><br>
+        💼 Praktikant hos Gjesdal Idrettslag<br>
+        💼 Summer Internship hos Geodata 2026<br><br>
         <strong>Valgemner:</strong><br>
         👥 TFL129 - Innføringsemne for studentmentorer<br>
         💻 IS309 - Videregående databaser<br>
